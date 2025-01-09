@@ -15,5 +15,5 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Our courses](https://scrimba.com/allcourses)
 - [The Frontend Career Path](https://scrimba.com/learn/frontend)
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
+- Figma: https://www.figma.com/design/Hdgwo69Dym9vVsxbuPbl0h/Mobile-Restaurant-Menu?node-id=8-237&t=9znrKVZVNCG5DrDu-0 
 Happy Coding!
