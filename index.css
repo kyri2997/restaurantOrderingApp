@@ -1,0 +1,192 @@
+/* Index.css */
+body {
+    margin: 0;
+    font-family: "Smythe", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+ 
+ /* Header */
+
+header {
+    margin:0;
+    position: relative;
+}
+
+header img{
+    margin:0;
+    width:100%;
+}
+
+header h1{
+    font-size: 39px;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    font-size: 22px;
+    margin:0;
+
+}
+
+.overlay-text-header {
+    margin:0;
+    position:absolute;
+    top:10%;
+    left:10%;
+    color:#FFFFFF;
+}
+
+/* Menu items */
+
+.menu-container{
+    position: relative;
+    display:flex;
+    height:140px;
+    padding: 20px 30px;
+    border-bottom: 1px solid #D2D2D2;
+    margin:auto;
+    align-items: center ;
+    width:80%;
+    }
+    
+.item-container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    gap:1px;
+    margin: 0;
+    padding:15px;
+}
+
+.item-container h1, .item-container h2 {
+     margin: 0;
+    padding: 0;
+}
+
+.item-name  {
+    font-size: 28px;
+    margin: 0;
+}
+.item-description{
+    font-size: 16px;
+    color:#8b8b8b;
+}
+
+.item-container .item-price {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.menu-container button {
+    border-radius: 100%;
+    height: 40px;
+    width:  45px;
+    background-color: transparent ;
+    border: 1px solid #DEDEDE;
+}
+
+/* Order Items */
+
+    
+.your-order{
+    text-align: center;
+    margin:10px 0 0 0;
+}
+
+.order-item, .order-btn{
+    width:80%;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 5px;
+}
+
+#total-price {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    border-top: solid 2px #393333;
+    
+}
+
+.order-btn {
+    margin-bottom: 50px;
+    padding: 20px 10px;
+}
+
+.order-btn, .modal-btn{
+    background-color: #16DB99;
+    color:whitesmoke;
+    text-align: center;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    display:block;
+}
+
+.order-section{
+        background-color: green;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: white;
+    color: whitesmoke;
+    text-align: center;
+}
+
+input {
+    border:1px solid #757575;
+    width:80%;
+    color: #757575;
+    display:flex;
+    flex-direction: column;
+    margin:10px auto;
+    padding: 10px;
+    
+   
+}
+
+.modal-btn-div{
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.modal-btn{
+    width:87%;
+    padding: 10px;
+}
+
+.modal-inner{
+    margin:auto;
+    width:100%;
+    
+}
+
+.modal-display-name {
+      color: green;
+}
+
+.thanks {
+    margin:30px auto;
+    padding: 20px 0px 20px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECFDF5;
+    width:90%;
+}
